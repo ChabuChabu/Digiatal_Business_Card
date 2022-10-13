@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&family=Open+Sans:wght@300&family=Roboto:wght@100;400&family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-boxs;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(220, 220, 220);
+    font-family: 'Inter', sans-serif;
+   
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.container{
+    width: 550px;
+    height: 800px;
+    margin: 0 auto;
+    margin: 5vh;
+    /* margin-top: 5vh; */
+    /* margin-bottom: 20px; */
+    background-color: #23252C;
+    border-radius: 40px;
+}
+.profile--details{
+    /* border: 1px solid red; */
+    padding-top: 25px;
+    max-width: 330px;
+    background-color: #1A1B21;
+    
+    border-radius: 15px 15px 0 0 ;
+    margin: 0 auto;
+}
+.profile--picture{
+   display: flex;
+   justify-content: center;
+}
+
+.profile--picture img{
+  margin: 25px 0px 10px 0px;
+  border-radius: 10px;
+  /* width: 330px;
+  height: 317px;
+  object-fit: cover; */
+}
+.profile--name{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    max-width: 300px;
+
+    /* margin-top: 20px; */
+    color: #FFFFFF;
+}
+.profle--job--role{
+   font-weight: 400;
+   font-size: 12.8px;
+   line-height: 15px;
+   
+   color: #F3BF99;
+}
+.profile--website{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    color: #F5F5F5;
+}
+.profile--name,.profle--job--role,.profile--website,.buttons{
+    text-align: center;
+}
+.profile--buttons{
+   display: flex;
+   justify-content: center;
+}
+.profile--buttons > a > button{
+    border: none;
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    margin: 12px;
+    margin-bottom: 3vh;
+
+}
+
+.linkedin--button {
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+
+    color: #F5F5F5;
+
+}
+.content--about,
+.content--interests{
+    width: 290px;
+    height: 60px;
+    
+    padding: 20px;
+    margin: 0 auto;
+  
+    background-color: #1A1B21;
+}
+.about--description,
+.interest--description{
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+.content--footer{
+    /* border: 1px solid green; */
+    max-width: 330px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+
+  
+    background-color: #161619;
+}
+.content--footer a {
+    margin: 8px;
+    display: inline-block;
+    /* margin-top: 10px; */
+    text-decoration: none;
+    color: #918E9B;
+    font-size: 25px;
+
+    
+}
+
+@media (max-width: 320px){
+ 
+    .container{
+       max-width: 300px;
+
+    }
+    .content--about,
+    .content--interests{
+       /* border: 1px solid red; */
+       max-width: 250px;
+       height: 70px;
+    }
+}
+
